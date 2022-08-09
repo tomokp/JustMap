@@ -8,6 +8,8 @@
 
 A minimap mod for Minecraft with Fabric launcher. [Original](https://github.com/Bulldog83/JustMap)
 
+This fork has a slight modification to also work on Realms, the drawback is that servers with the same server name also share the directory where the JustMap configuration will be stored.
+
 Mod page on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/just-map) \
 Translation via [Crowdin](https://crowdin.com/project/justmap)
 
