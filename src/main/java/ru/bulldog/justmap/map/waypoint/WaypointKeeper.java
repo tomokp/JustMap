@@ -29,7 +29,6 @@ public class WaypointKeeper {
 		}
 
 		File waypointsFile = new File(StorageUtil.filesDir(), "waypoints.json");
-		System.out.println(waypointsFile);
 		if (currentStorage == null || !currentStorage.equals(waypointsFile)) {
 			currentStorage = waypointsFile;
 			instance.loadWaypoints();
